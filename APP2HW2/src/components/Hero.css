@@ -1,0 +1,70 @@
+/*Code by ChatGPT  */
+/* =========================
+   SIMPLE HERO (TEXT + CTA)
+   ========================= */
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    padding: 4rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* Background */
+    background: linear-gradient(
+            135deg,
+            #0f172a,
+            #1e293b
+    );
+
+    color: #f8fafc;
+}
+
+.hero h3 {
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+}
+
+.hero h4 {
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-weight: 400;
+    color: #cbd5f5;
+    max-width: 640px;
+    margin-bottom: 2.5rem;
+}
+
+.hero .button {
+    padding: 0.9rem 2.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+
+    background: #3b82f6;
+    color: white;
+
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.hero button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(37, 99, 235, 0.4);
+}
+
+/* =========================
+   MOBILE TWEAKS
+   ========================= */
+
+@media (max-width: 640px) {
+    .hero {
+        padding: 3rem 1.5rem;
+    }
+}

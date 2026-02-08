@@ -1,0 +1,25 @@
+/* Adapted from https://app.rize.education/courses/8156/resource/e0da41f6-c609-4731-b16d-0db39a5cfa0c?weekId=10972*/
+/* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #fafafa;
+  color: #262626;
+}
+
+.app {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}

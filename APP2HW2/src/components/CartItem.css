@@ -1,0 +1,54 @@
+/*Made by ChatGPT */
+/* CartItem.css */
+
+.CartItemBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Name */
+.CartItemName {
+    flex: 1;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #111827;
+    margin: 0;
+}
+
+/* Price */
+.CartItemPrice {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2563eb;
+    margin: 0 12px;
+    white-space: nowrap;
+}
+
+/* Remove button */
+.CartItemRemoveButton {
+    border: none;
+    background-color: #ef4444;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.CartItemRemoveButton:hover {
+    background-color: #dc2626;
+}
+
+.CartItemRemoveButton:active {
+    transform: scale(0.95);
+}
